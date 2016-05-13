@@ -1,0 +1,20 @@
+<section id="register">
+    <div class="yo-header yo-header-normal">
+        <h2 class="title">用户登录</h2>
+        <span class="regret">
+            <i class="yo-ico" action-type="register-back" >&#xf07d;</i>
+        </span>        
+    </div>
+    <div class="yo-list   yo-list-a">
+        <label class="item item-input">
+            <span class="mark">手机号码：</span>
+            <input type="text" class="yo-input yo-input-a flex" ms-duplex="value" placeholder="手机号码" />
+            <button class="yo-btn    yo-btn-in">发送验证码</button>
+        </label>
+        <label class="item item-input">
+            <span class="mark">短信验证码：</span>
+            <input type="password" class="yo-input flex" placeholder="输入手机收到的短信验证码" />
+        </label>
+    </div>
+    <button class="yo-btn yo-btn-a yo-btn-stacked" action-type="tap.sign">登陆</button>
+</section>

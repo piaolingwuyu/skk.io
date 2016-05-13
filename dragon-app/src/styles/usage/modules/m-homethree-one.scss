@@ -1,0 +1,31 @@
+.homethree-one{
+    width:100%;
+    .cont{
+        @include box-sizing(border-box);
+        cursor: pointer;
+        .pic{
+            @include prefix(column-count,2);
+            @include prefix(column-gap,0.02rem);
+            >div{
+                padding-bottom: 0.05rem;
+                @include prefix(column-break-inside,avoid);
+                span{
+                    display:block;
+                    width:100%;
+                    margin-bottom:0.03rem;
+                    @include border($border-width:1px,$border-color:#ccc);
+                    
+                    img{
+                        width:100%
+                    }
+                    i{
+                        display: block;
+                        padding: 0.05rem 0;
+                         @include border(1px 0 0 0);
+                    }
+                }
+            }
+        }
+    }
+    
+}

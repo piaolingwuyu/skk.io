@@ -1,0 +1,15 @@
+<div class="swiper-container" id="guide-swiper">
+    
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="http://www.work.com/dragon-app/images/img/guide1.jpg" /></div>
+        <div class="swiper-slide"><img src="http://www.work.com/dragon-app/images/img/guide2.jpg" /></div>
+        <div class="swiper-slide">
+            <img src="http://www.work.com/dragon-app/images/img/guide3.jpg" />
+            <section id="guide-setcion" action-type="goto.index">点击关闭</section>  
+        </div>
+         
+    </div>
+    
+    <div class="swiper-pagination"></div>
+    
+</div>

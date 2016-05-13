@@ -1,0 +1,61 @@
+{
+  "ret": true,
+  "errorCode": 0,
+  "errorMsg": "",
+  "data": [
+    {
+      "title" : "路滑菜籽油1l",
+      "img": "http://www.work.com/dragon-app/images/img/oil1.jpg",
+      "prace":"￥79.00",
+      "message":"6人付款",
+      "city":"晋城市",
+      "addres":"龙门驿站"
+      
+    },
+    {
+      "title" : "金龙鱼清香型食用油5l",
+      "img": "http://www.work.com/dragon-app/images/img/oil2.jpg",
+      "prace":"￥48.00",
+      "message":"54人付款",
+      "city":"晋城市",
+      "addres":"龙门驿站"
+      
+    },
+    {
+      "title" : "福临门天天五谷非转基因5l",
+      "img": "http://www.work.com/dragon-app/images/img/oil3.jpg",
+      "prace":"￥79.90",
+      "message":"42人付款",
+      "city":"晋城市",
+      "addres":"龙门驿站"
+      
+    },
+    {
+      "title" : "福临门5l，再送400ml",
+      "img": "http://www.work.com/dragon-app/images/img/oil4.jpg",
+      "prace":"￥69.90",
+      "message":"20人付款",
+      "city":"晋城市",
+      "addres":"龙门驿站"
+      
+    },
+    {
+      "title" : "非常好吃的一中粮油2l",
+      "img": "http://www.work.com/dragon-app/images/img/oil1.jpg",
+      "prace":"￥790.90",
+      "message":"0人付款",
+      "city":"晋城市",
+      "addres":"龙门驿站"
+      
+    },
+    {
+      "title" : "福临门天天五谷非转基因5l",
+      "img": "http://www.work.com/dragon-app/images/img/oil3.jpg",
+      "prace":"￥79.90",
+      "message":"42人付款",
+      "city":"晋城市",
+      "addres":"龙门驿站"
+      
+    }
+  ]
+}

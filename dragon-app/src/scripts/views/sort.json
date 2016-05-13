@@ -1,0 +1,50 @@
+{
+  "ret": true,
+  "errorCode": 0,
+  "errorMsg": "",
+  "data": [
+
+	  				{
+				      "title" : "食用油",
+				      "img": "http://www.work.com/dragon-app/images/img/sortD1.jpg" 
+				    },
+				    {
+				      "title" : "大米白面",
+				      "img": "http://www.work.com/dragon-app/images/img/sortD2.jpg" 
+				    },
+				    {
+				      "title" : "厨房调料",
+				      "img": "http://www.work.com/dragon-app/images/img/sortD3.jpg" 
+				    },
+				    {
+				      "title" : "方便素食",
+				      "img": "http://www.work.com/dragon-app/images/img/sortD4.jpg" 
+				    },
+				    {
+				      "title" : "调味酱",
+				      "img": "http://www.work.com/dragon-app/images/img/sortD5.jpg" 
+				    },
+				    {
+				      "title" : "下饭菜",
+				      "img": "http://www.work.com/dragon-app/images/img/sortD1.jpg" 
+				    },
+				    {
+				      "title" : "菌菇",
+				      "img": "http://www.work.com/dragon-app/images/img/sortD3.jpg" 
+				    },
+				    {
+				      "title" : "菌菇",
+				      "img": "http://www.work.com/dragon-app/images/img/sortD3.jpg" 
+				    },
+				    {
+				      "title" : "菌菇",
+				      "img": "http://www.work.com/dragon-app/images/img/sortD3.jpg" 
+				    },
+				    {
+				      "title" : "其他",
+				      "img": "http://www.work.com/dragon-app/images/img/sortD5.jpg" 
+				    }
+
+    
+  ]
+}

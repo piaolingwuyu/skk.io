@@ -1,0 +1,125 @@
+<section id="person" spa-widget="scroll">
+    <ul>
+        <li>
+            <div> 
+               <span>
+                    <i class="yo-ico">&#xe610;</i>
+                    <p>我的资料</p>
+                    
+                </span>
+                <b>&gt</b>
+            </div>
+        </li>
+        <li>
+            <div> 
+               <span>
+                    <i class="yo-ico">&#xe610;</i>
+                    <p>我的订单</p>
+                    
+                </span>
+                <b>&gt</b>
+            </div>
+        </li>
+        <li>
+            <div> 
+               <span>
+                    <i class="yo-ico">&#xe610;</i>
+                    <p>财务记录</p>
+                    
+                </span>
+                <b>&gt</b>
+            </div>
+        </li>
+        <li>
+            <div> 
+               <span>
+                    <i class="yo-ico">&#xe610;</i>
+                    <p>线下消费</p>
+                    
+                </span>
+                <b>&gt</b>
+            </div>
+        </li>
+        <li>
+            <div> 
+               <span>
+                    <i class="yo-ico">&#xe610;</i>
+                    <p>收货地址</p>
+                    
+                </span>
+                <b>&gt</b>
+            </div>
+        </li>
+        <li>
+            <div> 
+               <span>
+                    <i class="yo-ico">&#xe610;</i>
+                    <p>我的收藏</p>
+                    
+                </span>
+                <b>&gt</b>
+            </div>
+        </li>
+        <li>
+            <div> 
+               <span>
+                    <i class="yo-ico">&#xe610;</i>
+                    <p>我的消息</p>
+                    
+                </span>
+                <b>&gt</b>
+            </div>
+        </li>
+        <li>
+            <div> 
+               <span>
+                    <i class="yo-ico">&#xe610;</i>
+                    <p>评价管理</p>
+                    
+                </span>
+                <b>&gt</b>
+            </div>
+        </li>
+        <li>
+            <div> 
+               <span>
+                    <i class="yo-ico">&#xe610;</i>
+                    <p>浏览记录</p>
+                    
+                </span>
+                <b>&gt</b>
+            </div>
+        </li>
+        <li>
+            <div> 
+               <span>
+                    <i class="yo-ico">&#xe610;</i>
+                    <p>意见反馈</p>
+                    
+                </span>
+                <b>&gt</b>
+            </div>
+        </li>
+        <li>
+            <div> 
+               <span>
+                    <i class="yo-ico">&#xe610;</i>
+                    <p>关于我们</p>
+                    
+                </span>
+                <b>&gt</b>
+            </div>
+        </li>
+        <li>
+            <div> 
+               <span>
+                    <i class="yo-ico">&#xe610;</i>
+                    <p>退出登陆</p>
+                    
+                </span>
+                <b>&gt</b>
+            </div>
+        </li>
+
+    </ul>
+</section>

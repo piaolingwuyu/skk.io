@@ -1,0 +1,55 @@
+@import "../../lib/fragment/yo-header.scss";
+@import "../../lib/element/yo-input.scss";
+@import "../../lib/fragment/yo-list.scss";
+@import "../../lib/element/yo-btn.scss";
+
+@include yo-header(
+    $color:#fff,
+    $bgcolor:#6c2e2c
+){
+    border:none;
+};
+
+
+@include yo-list(
+    $name:a,
+    $margin: 0.1rem 0 0.2rem 0 
+
+);
+
+//@include yo-input(
+//  $name:a
+//  
+//  
+//){
+//  
+//};
+@include yo-btn(
+    $name:info,
+    $bgcolor:#6c2e2c,
+    $height:.44rem
+
+){
+    color :#fff;
+};
+
+
+#sigin{
+    width:100%;
+    height:100%;
+    .sign-content{
+        width:100%;
+        height:100%;
+        
+    
+        .sign-footer{
+            @include flexbox(flex);
+            @include justify-content(space-around);
+            margin-top:0.2rem;
+            color:#6c2e2c;
+
+            
+        }
+    }
+   
+}

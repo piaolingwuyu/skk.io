@@ -1,0 +1,9 @@
+<div class="sort-sorts" spa-widget="scroll">
+    <ul>
+        <li ms-repeat-el="livelist" action-type="tap.sorts">
+            <div><img ms-src="el.img"/></div>
+            <p ms-html="el.title">食用油</p>
+        </li>
+
+    </ul>
+</div>

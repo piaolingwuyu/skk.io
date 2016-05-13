@@ -1,0 +1,29 @@
+<section id="sigin">
+    <div class="yo-header yo-header-normal">
+        <h2 class="title">用户登录</h2>
+        <span class="regret">
+            <i class="yo-ico" action-type="signin-back">&#xf07d;</i>
+        </span>        
+    </div>
+    <div class="sign-content">
+        
+        <div class="yo-list   yo-list-a">
+            <label class="item item-input">
+                <span class="mark yo-ico">&#xe649;</span>
+                <input type="text" class="yo-input yo-input-a flex" ms-duplex="value" placeholder="手机号码/用户名" />
+            </label>
+            <label class="item item-input">
+                <span class="mark yo-ico">&#xe6fb;</span>
+                <input type="password" class="yo-input flex" placeholder="密码" />
+            </label>
+        </div>
+        
+        <button class="yo-btn yo-btn-info yo-btn-stacked" action-type="tap.sign">登陆</button>
+        
+        <div class="sign-footer">
+            <p action-type="goto.register">立即注册</p>
+            <p>忘记密码</p>
+        </div>
+        
+    </div>
+</section>

@@ -1,0 +1,107 @@
+#sortDetasHeader{
+    width:100%;
+    height:100%;
+    @include flexbox(flex);
+    @include flex-direction(column);
+    
+    #yo-header{
+        height:0.44rem;
+    }
+    .sortDetascont{
+        
+        @include flex(1);
+        width:100%;
+        >ul{
+            width:100%;
+            .head {
+                text-align: center;
+                height: .35rem;
+                line-height: .35rem;
+                margin-top:-.35rem;
+                    img {
+                        width:0.15rem;
+                        height:0.15rem;
+                    
+                        display: inline-block;
+                        transform: rotate(180deg);
+                        -webkit-transform: rotate(180deg);
+                        transition: transform 150ms;
+                        -webkit-transition: transform 150ms;
+                    }
+            }
+            .up {
+                transform: rotate(360deg) !important;
+                -webkit-transform: rotate(360deg) !important;
+            }
+            .foot {
+                text-align: center;
+                height: .35rem;
+                line-height: .35rem;
+                img {
+                    width:0.15rem;
+                    height:0.15rem;
+
+                    display: inline-block;
+                    transition: transform 150ms;
+                    -webkit-transition: transform 150ms;
+                }
+            }
+            .down {
+                transform: rotate(180deg) !important;
+                -webkit-transform: rotate(180deg) !important;
+            }
+            >li:last-child{
+                @include border(null); 
+                }
+            >li{
+                
+                @include border(0 0 1px 0);
+                @include flexbox(flex);
+                width:100%;
+                .sorts-left{
+                    @include flex(1);
+                    width:100%;
+                    height:100%;
+                    img{
+                        width:100%;
+                    }
+                }
+                .sorts-right{
+                    @include flex(2);
+                   
+                    width:100%;
+                    >ul{
+                        @include flexbox(flex);
+                        @include flex-direction(column);
+                        
+                        //@include justify-content(space-between);
+                        width:100%;
+                        >li{
+                            @include flex(1);
+                            width:100%;
+                            font-size:0.12rem;
+                            margin-top:0.1rem 0;  
+                            h4{
+                                margin:0.15rem 0;     
+                            }
+   
+                        }
+                        li:nth-child(2){
+                            p{
+                                color:#f00
+                            }
+                        }
+                        li:nth-child(3){
+                                color:#ccc
+                        }
+                        li:nth-child(4){
+                                color:#ccc
+                        }
+                        
+                    }
+
+                }
+            }
+        }
+    }
+}

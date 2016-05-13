@@ -1,0 +1,101 @@
+ 
+.m-index{
+    @include flexbox(flex);
+    @include flex-direction(column);
+    width: 100%;
+    height: 100%;
+    background: #fff;    
+    .index-header{
+        width:100%;
+        height:0.44rem;
+        background:#6e2e2f;
+        @include flexbox(flex);
+        //@include justify-content(space-around);
+        div:not(:nth-child(2)){
+            height:100%;
+            text-align: center;
+            line-height: .44rem;
+        };
+        div:nth-child(1){
+            @include flex(1);
+            span{
+                color:#fff;
+                padding:0 0.1rem 0 0.03rem;
+            }
+        };
+        div:nth-child(2){
+            @include flex(2);
+            
+            .m-set-input{
+                //line-height:0.44rem;
+                padding-top:0.05rem;
+                @include flexbox(flex);
+                li:nth-child(1){
+                    @include flex(3);
+                    @include flexbox(flex);
+                    img{
+                        
+                        height:0.32rem;
+                        @include border-radius(5px 0 0 5px);
+                    }
+                    input{
+                        border:none;
+                        width:100%;
+                        height:0.32rem;
+                        background: #BB5551;
+                        @include border-radius(0 5px 5px 0);
+                    }
+                };
+                li:nth-child(2){
+                  @include flex(1);  
+                  text-align: center;
+                  line-height:0.35rem;
+                  font-size: 0.2rem;
+                  color:#fff;
+                };    
+                    
+                
+                
+            };
+            
+        };
+        
+    };
+    .index-conter{
+        @include flex(1);
+        @include flexbox(flex);
+        width: 100%;
+        
+        
+    };
+    .index-footer{
+        width:100%;
+        height:0.44rem;
+        background:#ff0;
+        
+        ul{
+           @include flexbox(flex);
+           li{ 
+               @include flexbox(flex);
+               @include flex-direction(column);
+               @include flex(1);
+               text-align: center;
+               background:#fff;
+               i{
+                   font-size:0.18rem;
+               };
+               span{
+                   font-size:0.1rem;
+               }
+               &.footli1{
+                   background:#BB5551;
+                   color:#fff;
+               }
+           } 
+        }
+         
+    }
+}
+
+
+

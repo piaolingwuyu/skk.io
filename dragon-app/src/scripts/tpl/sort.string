@@ -1,0 +1,15 @@
+<div class="sort" spa-widget="scroll">
+    <ul>
+        <li action-type="tap.sort"><b>粮油副食</b></li>
+        <li action-type="tap.sort1"><b>饮品饮料</b></li>
+        <li action-type="tap.sort2"><b>美容洗护</b></li>
+        <li action-type="tap.sort3"><b>家庭生活</b></li>
+        <li action-type="tap.sort4"><b>家庭清洁</b></li>
+        <li action-type="tap.sort5"><b>母婴用品</b></li>
+        <li action-type="tap.sort6"><b>生鲜水果</b></li>
+        <li action-type="tap.sort7"><b>北欧服饰</b></li>
+        <li action-type="tap.sort8"><b>同城代购</b></li>
+        <li action-type="tap.sort9"><b>休闲散食</b></li>
+        <li action-type="tap.sort10"><b>餐饮外卖</b></li>
+    </ul>
+</div>

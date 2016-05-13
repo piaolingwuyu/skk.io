@@ -1,0 +1,38 @@
+#person{
+    width:100%;
+    height:100%;
+    ul{
+        width:100%;
+        @include flexbox(flex);
+        @include flex-direction(column); 
+        li{ 
+            @include flexbox(flex);
+            @include justify-content(center);
+            @include flex(1);
+            width:100%;
+            div{
+                @include border(0 0 1px 0);
+                padding:0.1rem 0;
+                width:90%;;
+                font-size:0.18rem;
+                @include flexbox(flex);
+                @include justify-content(space-between);
+                span{
+                    @include flexbox(flex);
+                    i{
+                       padding-right:0.15rem; 
+                       color:#ccc;
+                    }
+                    p{
+                        color:#000;
+                    }
+                }
+                b{
+                    color:#ccc;
+                    font-size:0.18rem;
+                }
+            }
+        }
+    }
+    
+}

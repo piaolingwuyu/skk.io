@@ -1,0 +1,32 @@
+@import "../../lib/fragment/yo-header.scss";
+@import "../../lib/element/yo-btn.scss";
+
+@include yo-header(
+    $color:#fff,
+    $bgcolor:#6c2e2c
+){
+    border:none;
+};
+
+@include yo-btn(
+    $name:in,
+    $bgcolor:#6c2e2c,
+    $height:.33rem,
+    $width:1rem,
+    $font-size:0.1rem,
+    $active-bgcolor:#f00,
+    $active-color:#000
+
+){
+    color :#fff;
+};
+@include yo-btn(
+    $name:a,
+    $bgcolor:#6c2e2c,
+    $height:.44rem
+
+){
+    color :#fff;
+    
+};
+

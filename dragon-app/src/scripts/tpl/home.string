@@ -1,0 +1,156 @@
+<section class="home-scroll" spa-widget="scroll">
+    <div>
+        <div class="swiper-container" id="home-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="http://www.work.com/dragon-app/images/img/img1.jpg"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="http://www.work.com/dragon-app/images/img/img2.jpg"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="http://www.work.com/dragon-app/images/img/img3.jpg"/>
+                </div>
+            </div>
+        </div>
+        <div class="home-sale1">
+            <div class="home-sale-lfet">
+
+                <div></div>
+                <b>特价商品</b>
+                <img src="http://www.work.com/dragon-app/images/img/class_tit1.png"/>
+                <span><b>4月20号</b></span>
+
+            </div>
+            <div class="home-sale-righr">更多商品 </div>
+        </div>
+        <div id="home-sale">            
+            <ul ms-repeat="twolivelist">
+                <li action-type="tap.ajax">
+                    <div>
+                        <section>
+                            <img ms-src="el[0].img"/>
+                            <p ms-html="el[0].title"></p>
+                        </section>
+                        
+                        <section>
+                            <p ms-html="el[0].prace"></p>
+                            <p ms-html="el[0].oldprace"></p>
+                        </section>
+                    </div>
+                </li>
+                <li action-type="tap.ajax">
+                    <div>
+                        <section>
+                            <img ms-src="el[1].img"/>
+                            <p ms-html="el[1].title"></p>
+                        </section>
+                        
+                        <section>
+                            <p ms-html="el[1].prace"></p>
+                            <p ms-html="el[1].oldprace"></p>
+                        </section>
+                    </div>
+                </li>
+                <li action-type="tap.ajax">
+                    <div>
+                        <section>
+                            <img ms-src="el[2].img"/>
+                            <p ms-html="el[2].title"></p>
+                        </section>
+                        
+                        <section>
+                            <p ms-html="el[2].prace"></p>
+                            <p ms-html="el[2].oldprace"></p>
+                        </section>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="home-life">
+            <section>
+                <div></div>
+                <b>同城生活</b>
+            </section>
+            <section>
+                <div class="swiper-container" id="home-life-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="http://www.work.com/dragon-app/images/img/life1.jpg"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="http://www.work.com/dragon-app/images/img/life2.jpg"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="http://www.work.com/dragon-app/images/img/life3.jpg"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="http://www.work.com/dragon-app/images/img/life4.jpg"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <img src="http://www.work.com/dragon-app/images/img/life5.jpg"/>
+            </section>
+        </div>
+        <div class="home-other">
+            <section>
+                <div></div>
+                <b>同城分类</b>
+            </section>
+            <ul>
+                <li>
+                    <span>粮油辅食</span>
+                    <p><img src="http://www.work.com/dragon-app/images/img/other.jpg"/></p>
+                </li>
+                <li>
+                    <span>食品饮料</span>
+                    <p><img src="http://www.work.com/dragon-app/images/img/other2.jpg"/></p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <span>美容洗护</span>
+                    <p><img src="http://www.work.com/dragon-app/images/img/other3.jpg"/></p>
+                </li>
+                <li>
+                    <span>家庭生活</span>
+                    <p><img src="http://www.work.com/dragon-app/images/img/other4.jpg"/></p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <span>家庭清洁</span>
+                    <p><img src="http://www.work.com/dragon-app/images/img/other5.jpg"/></p>
+                </li>
+                <li>
+                    <span>母婴用品</span>
+                    <p><img src="http://www.work.com/dragon-app/images/img/other6.jpg"/></p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <span>粮油辅食</span>
+                    <p><img src="http://www.work.com/dragon-app/images/img/other7.jpg"/></p>
+                </li>
+                <li>
+                    <span>衣帽鞋袜</span>
+                    <p><img src="http://www.work.com/dragon-app/images/img/other8.jpg"/></p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <span>休闲散食</span>
+                    <p><img src="http://www.work.com/dragon-app/images/img/other9.jpg"/></p>
+                </li>
+                <li>
+                    <span></span>
+                    <p></p>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</section>

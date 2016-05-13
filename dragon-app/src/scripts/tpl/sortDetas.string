@@ -1,0 +1,44 @@
+<div id="sortDetasHeader">
+    <div class="yo-header">
+        <h2 class="title">食用油</h2>
+        <span class="regret yo-ico" action-type="tap.sortsDetas">&#xe687;</span>
+        <span class="affirm yo-ico">&#xe67b;</span>
+    </div>
+    <div class="sortDetascont" spa-widget="scroll" id="sortiscoll">
+        <ul>
+            <div class="head">
+                <img src="http://www.work.com/dragon-app/images/img/arrow.png"/>
+                <span>下拉刷新...</span>
+            </div>
+            <li ms-repeat="livelist">
+                <div class="sorts-left">
+                    <img ms-src="el.img"/>
+                </div>
+                <div class="sorts-right">
+                    <ul>
+                        <li>
+                            <h4 ms-html="el.title"></h4>
+                        </li>
+                        <li>
+                            <p ms-html="el.prace"></p>
+                        </li>
+                        <li>
+                            <p>
+                                <span ms-html="el.message"></span>
+                                <span ms-html="el.city"></span>
+                            </p>
+                        </li>
+                        <li>
+                            <p ms-html="el.addres"></p>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </li>
+            <div class="foot">
+                <img src="http://www.work.com/dragon-app/images/img/arrow.png"/>
+                <span>上拉加载更多...</span>
+            </div>
+        </ul>
+    <div>
+</div>

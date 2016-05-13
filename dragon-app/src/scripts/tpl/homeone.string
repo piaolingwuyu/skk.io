@@ -1,0 +1,46 @@
+<section id="homeone">
+     <div class="yo-header">
+        <h2 class="title">商品详情</h2>
+        <span class="regret yo-ico" action-type="tap.homeback">&#xe687;</span>
+        <span class="affirm">分享</span>
+    </div>
+    <div class="homeone-content" spa-widget="scroll">
+        <div>
+            <div class="swiper-container" id="homeones-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="http://www.work.com/dragon-app/images/img/homeone1.jpg" />
+                    </div>  
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+            <div class="homeone-one">
+                <ul>
+                    <li>
+                        <div>洗衣液没有最好只有更好1kg</div>
+                        <div>
+                            <i class="yo-ico">&#xe649;</i>
+                            <b>进入店铺</b>
+                        </div>
+                        <div>
+                            <i class="yo-ico">&#xe6fb;</i>
+                            <b>收藏</b>
+                        </div>
+                    </li>
+                    <li>
+                        <i>￥19.00</i>
+                        <span>￥10.00</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="hometwo">
+                <span class="home-span1" action-type="tap.homes" data-tag="homethree-one">图文详情</span>
+                <span action-type="tap.homes" data-tag="homethree-two">用户评价</span>
+            </div>
+            <div class="homethree">
+                
+            </div>    
+        </div>
+    </div>
+</section>
